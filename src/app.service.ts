@@ -1,8 +1,14 @@
 import { Injectable } from '@nestjs/common';
 
+import { DESCRIPTION, TITLE, VERSION } from './app.constants';
+
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  read() {
+    return {
+      title: TITLE,
+      description: DESCRIPTION,
+      version: VERSION,
+    };
   }
 }
