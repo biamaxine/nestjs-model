@@ -1,0 +1,27 @@
+{
+  // Editor
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+
+  // Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.editor.labelFormat": "short",
+
+  // Explorer
+  "explorer.compactFolders": false,
+
+  // Terminal
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "'MesloLGS NF', Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontLigatures.enabled": true,
+
+  // Files
+  "files.autoSave": "off"
+}
